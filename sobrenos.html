@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o site</title>
+    <link rel="icon" type="image/png" href="c:\Users\User\Downloads\WhatsApp_Image_2024-03-03_at_05.55.42-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace; /* Fonte monoespaçada, similar a uma máquina de escrever */
+    background-color: #000;
+    color: #dfe4d4;
+    text-align: center;
+    /* Adiciona um efeito de sombra de texto */
+    text-shadow: 0 0 px #1f1f1e, 0 0 10px #1f1f1e, 0 0 15px #1f1f1e, 0 0 20px #1f1f1e, 0 0 25px #1f1f1e, 0 0 30px #1f1f1e, 0 0 35px #1f1f1e;
+}
+
+/* Estilo para os botões */
+.inicio-btn,
+.produtos-btn {
+    font-family: Arial, sans-serif; /* Definindo a fonte dos botões */
+   
+}
+
+/* Estilo para o footer */
+footer {
+    background-color: #000000;
+    color: #668231;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px rgb(89, 176, 30);
+}
+
+
+        #logo {
+            width: 200px;
+            height: auto;
+            margin: 10px auto;
+        }
+
+        .menu-btn {
+            display: inline-block;
+            background-color: #cdd6bb;
+            color: #668231;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .menu-btn:hover {
+            background-color: #24bd5f;
+        }
+        .inicio-btn,
+.produtos-btn {
+    display: inline-block;
+    background-color: #cdd6bb;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona a transição também para a cor do texto */
+    box-shadow: 0 0 21px 0 #cdd6bb;
+}
+
+.inicio-btn:hover,
+.produtos-btn:hover {
+    background-color: #000000;
+    color: #24bd5f; /* Altere para a cor desejada do texto quando o mouse passar por cima */
+    box-shadow: 0px 0px 20px rgb(89, 176, 30);
+}
+        .footer-btn {
+            display: inline-block;
+            background-color: #cdd6bb;
+            color: #668231;
+            padding: 20px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            box-shadow: 0 0 21px 0 #cdd6bb;
+        }
+
+        .footer-btn:hover {
+            background-color: #24bd5f;
+            box-shadow: 0px 0px 20px rgb(89, 176, 30);
+        }
+        #menu-lv {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: #b4c496;
+        }
+
+        .menu {
+            display: none;
+            position: absolute;
+            top: 70px;
+            left: 20px;
+            background-color: #cdd6bb;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 14px rgb(255, 255, 255);
+        }
+
+        .menu.active {
+            display: block;
+        }
+
+        .about-section {
+            background-color: #000000;
+            padding: 100px;
+            text-align: center;
+            box-shadow: 0px 0px 20px  rgb(89, 176, 30);
+        }
+
+        .contact-section {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgb(255, 255, 255);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img id="logo" src="c:\Users\User\Downloads\WhatsApp_Image_2024-03-03_at_05.55.42-removebg-preview.png" alt="Logo da Empresa">
+        </div>
+        <div class="col-md-6">
+            <!-- Adicione o botão de menu no lado esquerdo superior -->
+            <button id="menu-lv" class="menu-btn"><i class="fas fa-bars"></i></button>
+            <!-- Envolver os itens do menu em uma div para facilitar a manipulação -->
+            <nav class="menu">
+                <ul>
+                    <br><li><a href="monkey.html" class="inicio-btn">Inicio</a></li></br>
+                    <li><a href="productcurs (1).html" class="produtos-btn">Produtos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav>
+            <ul>
+                <!--links de navegação-->
+            </ul>
+        </nav>
+    </header>
+    <div class="about-section">
+        <h2>Sobre o site</h2>
+        <p><h1>Bem-vindo á MonkeyBay - Sua platareforma de vendas online. Nosso objetivo é fornecer uma ampla seleção de produtos de qualidade a preços acessiveis, garantindo uma expereriencia de compra simplificada e satisfatoria para todos os nosso clientes. Obrigado!</h1></p>
+     </div>
+     </div>
+    <footer>
+        <br><div class="container">
+            <p>&copy; 2024 MonkeyBay. Todos os direitos reservados.</p>
+        </div></br>
+    </footer>
+    <script>
+       document.addEventListener('DOMContentLoaded', function () {
+    const menuBtn = document.getElementById('menu-lv');
+    const menu = document.querySelector('.menu');
+
+    // Adicione um evento de clique ao botão de menu
+    menuBtn.addEventListener('click', function () {
+        // Alternar a classe 'active' no menu para mostrar ou ocultar
+        menu.classList.toggle('active');
+    });
+});
+
+    </script>
+</body>
+</html>
