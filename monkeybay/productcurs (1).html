@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonkeyBay - Shopee</title>
+    <link rel="icon" type="image/png" href="c:\Users\User\Downloads\WhatsApp_Image_2024-03-03_at_05.55.42-removebg-preview.png">
+    <link rel="stylesheet" href="monkey.css">
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    left: auto;
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #668231;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgb(89, 176, 30);
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #24bd5f;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.curso {
+    margin-bottom: 30px;
+    border: 3px solid #000000;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 150px 0 rgba(0, 0, 0, 0.5);
+}
+
+.curso h2 {
+    margin-top: 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #cdd6bb;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #000000;
+    box-shadow: 0px 0px 20px rgb(89, 176, 30);
+    z-index: 1000;
+}
+
+footer {
+    background-color: #000000;
+    color: #668231;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px rgb(89, 176, 30);
+    z-index: 1000;
+}
+
+.logo-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 16%;
+    height: auto;
+    padding-top: 0px;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+    z-index: 1000;
+}
+.img-curso{
+border-radius: 3px;
+}
+.menu-btn {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #b4c496;
+    z-index: 1000;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    background-color: #cdd6bb;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+.menu.active {
+    display: block;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel img {
+    flex: 0 0 auto;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    scroll-snap-align: start;
+    cursor: pointer;
+}
+
+.search-form {
+    position: relative;
+}
+
+.search-form input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: width 0.5s;
+    box-shadow: 0px 0px 14px rgb(89, 176, 30);
+    z-index: 1000;
+}
+
+.search-form:hover input[type="text"] {
+    width: 300px;
+}
+
+    </style>
+</head>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div>
+        <img src="c:\Users\User\Downloads\WhatsApp_Image_2024-03-03_at_05.55.42-removebg-preview.png" alt="logo/png" class="logo-img">
+    </div>
+    <div class="col-md-6">
+        <button id="menu-btn" class="menu-btn"><i class="fas fa-bars"></i></button>
+        <nav class="menu">
+            <ul>
+                <br><li><a href="monkey.html" class="cta-button">Inicio</a></li></br>
+                <br><li><a href="ProductursSH.html" class="cta-button">Shein</a></li></br>
+            </ul>
+        </nav>
+    </div>
+</div>
+    <h1>MonkeyBay - Shopee</h1>
+    <form action="/search" method="GET" class="search-form">
+        <div class="search-container">
+            <input type="text" name="search" id="search-input" placeholder="Pesquisar...">
+            <button type="submit" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </form>
+    
+    
+    <nav>
+        <ul>
+
+        </ul>
+    </nav>
+</header>
+    <br><div class="container">
+        <div class="curso">
+            <h2>925 Silver Heavenly anel pan Sol & Lua Tamanho Ajustável</h2>
+            <p> <p>Que saber mais sobre o produto? Acesse já a loja!</p></p>
+            <div class="carousel">
+                <a><img src="https://down-br.img.susercontent.com/file/cn-11134207-7r98o-ltc5uq0zcgrh4a" alt="925 Silver Heavenly anel pan Sol & Lua Tamanho Ajustável"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/sg-11134201-7rccz-ltc5ytglil6x67" alt="925 Silver Heavenly anel pan Sol & Lua Tamanho Ajustável"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/sg-11134201-7rcc3-ltc5qnohfgci4a" alt="925 Silver Heavenly anel pan Sol & Lua Tamanho Ajustável"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/sg-11134201-7rcf1-ltc5qqbdklaw03" alt="925 Silver Heavenly anel pan Sol & Lua Tamanho Ajustável"></a>
+            </div>
+        </div>
+    </div></br>
+    <div class="container">
+        <div class="curso">
+            <h2>Caneca Cerâmica 350ml - Não gosta do Lula - Dedo</h2>
+            <p> <p>Que saber mais sobre o produto? Acesse já a loja!</p></p>
+            <p>Loja: <a href="https://shopee.com.br/Caneca-Cer%C3%A2mica-350ml-N%C3%A3o-gosta-do-Lula-Dedo-i.400769749.20435501138?sp_atk=5e003dcb-4ff6-47d4-bbb4-b161f2cb0876&xptdk=5e003dcb-4ff6-47d4-bbb4-b161f2cb0876">
+                bcnegocios</a></p>
+            <div class="carousel">
+                <a><img src="https://down-br.img.susercontent.com/file/a45d87736b4e4b20e97e662be123f53f" alt="Caneca Cerâmica 350ml - Não gosta do Lula - Dedo"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/4d1911d1546113430e1109dd0bd05a9c" alt="Caneca Cerâmica 350ml - Não gosta do Lula - Dedo"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/4aa339a3c63cae6e23b166833c7a26f7" alt="Caneca Cerâmica 350ml - Não gosta do Lula - Dedo"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="curso">
+            <h2>Caneca BolsoLula</h2>
+            <p>Que saber mais sobre o produto? Acesse a loja já!</p>
+            <div class="carousel">
+                <a><img src="https://down-br.img.susercontent.com/file/cb3e4e8c76de9861724a3c648d3ef2f8" alt="Caneca BolsoLula"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/7251a9a3919fdeb22d2a3ebf92a5dd9f" alt="Caneca BolsoLula"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/aecee5a09504e3eee8c02e284e62a4af" alt="Caneca BolsoLula"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="curso">
+            <h2>Real 925s Anel Coração Vermelho Brilhante Prata Com Caixa</h2>
+            <p> <p>Que saber mais sobre o produto? Acesse já a loja!</p></p>
+            <div class="carousel">
+                <a><img src="https://down-br.img.susercontent.com/file/sg-11134201-23010-ngdx0nmk9ylvdd" alt="Real 925s Anel Coração Vermelho Brilhante Prata Com Caixa"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/sg-11134201-23010-sddwznmk9ylv1a" alt="Real 925s Anel Coração Vermelho Brilhante Prata Com Caixa"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/sg-11134201-23010-7dfwhh5k9ylvdd" alt="Real 925s Anel Coração Vermelho Brilhante Prata Com Caixa"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/sg-11134201-23010-k44z2c5k9ylv47" alt="Real 925s Anel Coração Vermelho Brilhante Prata Com Caixa"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="curso">
+            <h2>Capa De Celular Travis Scott Facecompible Para Apple Airpods</h2>
+            <p> <p>Que saber mais sobre o produto? Acesse já a loja!</p></p>
+            <div class="carousel">
+                <a><img src="671b9ddef365eb9bbf137ea34cbfd20f.jpeg" alt="Capa De Celular Travis Scott Facecompible Para Apple Airpods"></a>
+                <a><img src="fb3b1e6687cfe1aae5f27c30ee350d01.jpeg" alt="Capa De Celular Travis Scott Facecompible Para Apple Airpods"></a>
+                <a><img src="897efb1c63a9aa23a650061b496e4109.jpeg" alt="Capa De Celular Travis Scott Facecompible Para Apple Airpods"></a>
+                <a><img src="ab8bf84e0ae1dd5188adde6a3b36bf9f.jpeg" alt="Capa De Celular Travis Scott Facecompible Para Apple Airpods"></a>
+                <a><img src="0653b7d269bfa47a2052156dd52f0c95.jpeg" alt="Capa De Celular Travis Scott Facecompible Para Apple Airpods"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="curso">
+            <h2>Botas De Futebol Para Crianças Corte Do Salão De Teatro 31-38 Sapatos Esportivos chuteira society</h2>
+            <p> <p>Que saber mais sobre o produto? Acesse já a loja!</p></p>
+            <div class="carousel">
+                <a><img src="https://down-br.img.susercontent.com/file/cn-11134207-7r98o-llncq2fufbv5ba" alt="Botas De Futebol Para Crianças Corte Do Salão De Teatro 31-38 Sapatos Esportivos chuteira society"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/cn-11134207-7r98o-llncq2fub45t08" alt="Botas De Futebol Para Crianças Corte Do Salão De Teatro 31-38 Sapatos Esportivos chuteira society"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/cn-11134207-7r98o-llncq2fuciq975" alt="Botas De Futebol Para Crianças Corte Do Salão De Teatro 31-38 Sapatos Esportivos chuteira society"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/cn-11134207-7r98o-llncq2fudxapfb" alt="Botas De Futebol Para Crianças Corte Do Salão De Teatro 31-38 Sapatos Esportivos chuteira society"></a>
+                <a><img src="https://down-br.img.susercontent.com/file/cn-11134207-7r98o-lr9kj7bxwc7x1a" alt="Botas De Futebol Para Crianças Corte Do Salão De Teatro 31-38 Sapatos Esportivos chuteira society"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MonkeyBay. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="monkey.js"></script>
+</body>
+</html>
